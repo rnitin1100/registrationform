@@ -94,7 +94,9 @@ exports.login= (checkNotAuthenticate,(req,res)=>{
  })
 
 
-
+exports.homepage=(req,res)=>{
+    res.render('homepage')
+}
 
 
 //checking authentication
